@@ -37,7 +37,7 @@ These insights empower stakeholders with key business metrics, enabling strategi
 This product is licensed under [MIT License](LICENSE). You are free to use, modify and share this project with proper attribution.
 
 ## 🔴 About Me
-Hi there! I'm **Rifat Hasan**, highly passionate about **Data Science** & **Machine Learning**. I'm continuously growing in this field. Though the is difficult and highly competitive but i'm gonna see where it ends.
+Hi there! I'm **Rifat Hasan**, highly passionate about **Data Science** & **Machine Learning**. I'm continuously growing in this field. Though this field is difficult and highly competitive but i'm gonna see where it ends.
 
 **Thank You**
 
