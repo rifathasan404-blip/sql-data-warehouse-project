@@ -31,10 +31,25 @@ Develop SQL based analytics to deliver detailed insights into:
 These insights empower stakeholders with key business metrics, enabling strategic decision making.
 
 ---
-## Data Architecture
+## Data Architecture Overview
+
+This project follows a **Medallion Architecture** with three distinct layers, each serving a specific role in the data pipeline:
 ---
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, **Gold** layers:
 ![image alt](https://github.com/rifathasan404-blip/sql-data-warehouse-project/blob/7f533211086673217a15d6543e8b3bcee2274164/docs/data_architecture.png)
+
+### 🥉 Bronze Layer — Raw Data Ingestion
+Stores data exactly as received from source systems, preserving full fidelity with no transformations applied. 
+Data is ingested from CSV files into a SQL Server database, serving as the immutable foundation of the pipeline.
+
+### 🥈 Silver Layer — Data Refinement
+Applies cleansing, standardization, and normalization to raw Bronze data, resolving inconsistencies and 
+preparing a trusted, structured dataset ready for downstream consumption.
+
+### 🥇 Gold Layer — Business-Ready Analytics
+Houses fully modeled, business-ready data structured as a **star schema** optimized for reporting and analytics. 
+This layer serves as the single source of truth for dashboards, KPIs, and analytical workloads.
+
 ## 🛡️ License
 
 This product is licensed under [MIT License](LICENSE). You are free to use, modify and share this project with proper attribution.
