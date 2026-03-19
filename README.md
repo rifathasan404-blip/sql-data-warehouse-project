@@ -31,7 +31,10 @@ Develop SQL based analytics to deliver detailed insights into:
 These insights empower stakeholders with key business metrics, enabling strategic decision making.
 
 ---
-
+## Data Architecture
+---
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, **Gold** layers:
+![image alt](https://github.com/rifathasan404-blip/sql-data-warehouse-project/blob/7f533211086673217a15d6543e8b3bcee2274164/docs/data_architecture.png)
 ## 🛡️ License
 
 This product is licensed under [MIT License](LICENSE). You are free to use, modify and share this project with proper attribution.
